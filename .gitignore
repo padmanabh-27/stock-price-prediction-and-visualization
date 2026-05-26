@@ -1,0 +1,8 @@
+venv/
+Lib/
+Scripts/
+Include/
+__pycache__/
+*.pyc
+.vscode/
+model/
