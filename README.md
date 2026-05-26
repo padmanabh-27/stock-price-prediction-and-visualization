@@ -1,81 +1,120 @@
-# 📈 Visualizing and Forecasting of Stocks
+# 📈 Stock Price Prediction and Visualization
 
-### 🚀 Mini-Project using Python & Time Series Analysis
-
-## 🧠 Project Overview
-
-The **Visualizing and Forecasting of Stocks** mini-project introduces the fundamentals of **time series analysis**, **data visualization**, and **predictive modeling** using Python.
-This project demonstrates how real-world financial data can be transformed into meaningful insights through powerful data science libraries such as **NumPy**, **Pandas**, **Matplotlib**, **Pandas DataReader**, and **Yahoo Finance (yfinance)**.
-
-It is designed as a beginner-friendly yet practical project that builds a strong foundation for advanced stock analysis and machine learning applications.
+🚀 AI-powered stock prediction dashboard using Streamlit, TensorFlow (LSTM), and Plotly.
 
 ---
 
-## ✨ Key Features
+## 🧠 Project Overview
 
-### 🔎 1. Data Retrieval
+This project focuses on stock market data visualization and forecasting using Python and Deep Learning.
 
-* Fetch real-time historical stock data using **Pandas DataReader** and **Yahoo Finance (yfinance)**.
-* Select custom stock symbols and define flexible timeframes.
-* Automate financial data collection with Python.
+The application retrieves live historical stock data from Yahoo Finance, performs analysis, visualizes market trends, and predicts future stock prices using an LSTM (Long Short-Term Memory) neural network.
 
-### 📊 2. Data Exploration
+The project combines financial analytics with interactive dashboard design to create a practical stock prediction system.
 
-* Analyze dataset structure using **Pandas**.
-* Generate statistical summaries to understand trends.
-* Detect missing values, anomalies, and data inconsistencies.
+---
 
-### 📉 3. Data Visualization
+## ✨ Features
 
-* Create interactive and insightful visualizations using **Matplotlib**:
+### 🔎 1. Live Stock Data Retrieval
+- Fetch live historical stock data using **Yahoo Finance (yfinance)**
+- Support for custom stock tickers
+- Flexible date range selection
 
-  * Time series trend analysis
-  * Moving averages
-  * Candlestick charts
-* Understand market behavior through graphical patterns.
+### 📊 2. Data Analysis
+- Statistical summaries using Pandas
+- Trend exploration
+- Data preprocessing and scaling
+
+### 📈 3. Interactive Visualization
+Modern interactive charts using **Plotly**:
+
+- Stock closing price trend
+- 100-Day Moving Average
+- 200-Day Moving Average
+- Prediction vs Actual graph
+- Groww-style hover tracking
+
+### 🤖 4. AI-Based Stock Prediction
+Using **LSTM (TensorFlow/Keras)**:
+
+- Next-day stock prediction
+- 7-day stock forecasting
+- Deep learning based time-series prediction
+
+### 🎨 5. Streamlit Dashboard
+Modern UI with:
+
+- Dark theme
+- Sidebar controls
+- Stock selection
+- Metric cards
+- Loading spinner
+- Interactive charts
 
 ---
 
 ## 🛠️ Technologies Used
 
-* Python 🐍
-* NumPy
-* Pandas
-* Matplotlib
-* Pandas DataReader
-* yfinance (Yahoo Finance API)
+- Python 🐍
+- Streamlit
+- TensorFlow / Keras
+- NumPy
+- Pandas
+- Plotly
+- Matplotlib
+- yFinance
+- Scikit-learn
 
 ---
 
 ## 🎯 Learning Objectives
 
-Through this project, you will:
+This project helps in learning:
 
-* Understand the basics of **financial time series data**.
-* Learn how to retrieve and preprocess stock datasets.
-* Develop visualization skills for trend analysis.
-* Build a simple predictive model for stock forecasting.
+- Financial time-series analysis
+- Data preprocessing
+- Data visualization
+- Deep learning for forecasting
+- Dashboard development using Streamlit
 
 ---
 
 ## 📌 Expected Outcome
 
-By completing this mini-project, you will gain hands-on experience in:
+The system enables users to:
 
-* Collecting historical stock market data.
-* Performing exploratory data analysis.
-* Visualizing stock performance effectively.
-* Creating a basic forecasting model.
+- Analyze stock trends
+- Visualize market behavior
+- Predict future stock prices
+- Explore financial data interactively
 
-This project serves as a stepping stone toward more advanced domains such as **financial analytics**, **AI-driven forecasting**, and **machine learning in trading systems**.
+This project serves as a foundation for advanced domains like:
+
+- Financial Analytics
+- AI-driven Forecasting
+- Quantitative Trading
+- Machine Learning in Finance
 
 ---
 
-## 🌟 Future Enhancements (Optional Ideas)
+## 🌟 Future Improvements
 
-* Integrate Machine Learning models (LSTM, ARIMA).
-* Build a Streamlit dashboard for live visualization.
-* Add technical indicators like RSI, MACD, and Bollinger Bands.
+- Candlestick charts
+- Buy/Sell signal generation
+- News sentiment analysis
+- Technical indicators (RSI, MACD, Bollinger Bands)
+- Multi-stock comparison
+- Cloud deployment
+
+---
+
+## ⚡ Installation
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
 
 ---
 
